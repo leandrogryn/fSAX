@@ -23,6 +23,7 @@ One may also want to generate the documentation and testing. In such case a
 manual installation is required.
 
 Basic installation:
+
 Example 1:
 $ ./install.sh FC=gfortran TARGET_PREFIX=/usr
 Will install fSAX using gfortran. The mod files will be under /usr/include and
@@ -33,6 +34,7 @@ Will install fSAX using the default Fortran compiler (gfortran). The mod files
 will be under ./fsax/include and libfsax.a will be under ./fsax/lib.
 
 Manual installation:
+
 Follow the following steps as it's usually done using CMake:
 1) Create a build directory and go there, e.g.:
 $ mkdir fsax
