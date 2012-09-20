@@ -7,10 +7,12 @@ Desciption
 ----------
 fSAX is a library to read XML files. It is fully developed in Fortran and the
 API follows the approach of the Simple API for XML (SAX).
-The SAX approach is recommended for very large XML files, since it avoids the
+SAX is recommended for very large XML files, since it avoids the
 extra memory usage of other approaches like DOM.
 The purpose of fSAX is to provide a library fully written in Fortran to avoid
-cross compilation with other languages like C.
+cross compilation with other languages like C, prioritizing I/O speed.
+Although fSAX does not provide full compatibility with SAX, particularly with
+SAX2, it is a lot faster than other libraries.
 
 Installation
 ------------
