@@ -1,0 +1,9 @@
+# - Config file for the fsax package
+# It defines the following variables
+#  FSAX_INCLUDE_DIRS - include directories for fsax
+#  FSAX_LIBRARY_DIRS - library directories for fsax
+#  FSAX_LIBRARIES - libraries to link against
+
+set(FSAX_INCLUDE_DIRS "@INSTALL_INCLUDE_DIRS@")
+set(FSAX_LIBRARY_DIRS "@INSTALL_LIBRARY_DIRS@")
+set(FSAX_LIBRARIES fsax)

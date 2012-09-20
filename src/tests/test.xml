@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc><title>XML &amp; Document</title><date>2010</date><aut
+hor>Some none Person</author>
+  <!-- comment -->
+  <!-- <a> -->
+  <body type="n&gt;ormal&lt;" attr2="val2"><!--c2-->This is <!--c3-->an example</body>
+</doc>
