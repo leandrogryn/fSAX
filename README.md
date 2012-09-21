@@ -3,8 +3,8 @@ fSAX
 
 Fortran implementation of the Simple API for XML (SAX)
 
-Desciption
-----------
+Description
+-----------
 fSAX is a library to read XML files. It is fully developed in Fortran and the
 API follows the approach of the Simple API for XML (SAX).
 SAX is recommended for very large XML files, since it avoids the
